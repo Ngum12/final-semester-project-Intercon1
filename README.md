@@ -11,7 +11,7 @@ This project involves setting up WSL, installing Docker, running an Open WebUI D
 6. [Install Stable Diffusion](#install-stable-diffusion)
 
 ## Setup WSL and Ubuntu
-
+![prayview](lam.png)
 ### Install WSL and Ubuntu
 
 ```bash
