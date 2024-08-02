@@ -1,7 +1,7 @@
 # Final Semester Project
 
 This project involves setting up WSL, installing Docker, running an Open WebUI Docker container, and installing Stable Diffusion. Follow the steps below to set up each component.
-
+[Link to my  SRS document HERE](https://docs.google.com/document/d/16vFEvL4VoAHSKbwlST-CpFSLGUilIsVOelJorgf71NI/edit)
 ## Table of Contents
 1. [Setup WSL and Ubuntu](#setup-wsl-and-ubuntu)
 2. [Install Ollama](#install-ollama)
@@ -113,3 +113,9 @@ wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/m
 chmod +x webui.sh
 ./webui.sh --listen --api
 
+[HOW TO DEPLOY THE AI AND MAKE IT LIVE].
+Step 1- Go to [ngrok](https://dashboard.ngrok.com/get-started/setup/windows)
+Step 2- And follow the instructions under set and installation by Establishing ingress for your application, Then Deploy your app online
+
+Put your app online at an ephemeral domain forwarding to your upstream service. For example, if it is listening on port http://localhost:8080, run:
+Step 3- And finally run this [ngrok http http://localhost:8080] on command prompt to get the live link. Which can be share with anyone around the globe.
