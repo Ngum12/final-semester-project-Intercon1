@@ -1,3 +1,24 @@
+# Final Semester Project
+
+This project involves setting up WSL, installing Docker, running an Open WebUI Docker container, and installing Stable Diffusion. Follow the steps below to set up each component.
+
+## Table of Contents
+1. [Setup WSL and Ubuntu](#setup-wsl-and-ubuntu)
+2. [Install Ollama](#install-ollama)
+3. [Watch GPU Performance](#watch-gpu-performance)
+4. [Install Docker](#install-docker)
+5. [Run Open WebUI Docker Container](#run-open-webui-docker-container)
+6. [Install Stable Diffusion](#install-stable-diffusion)
+
+## Setup WSL and Ubuntu
+
+### Install WSL and Ubuntu
+
+```bash
+wsl --install
+Connect to a WSL Instance in a new window
+wsl -d Ubuntu
+
 Final Semester Project
 This project involves setting up WSL, installing Docker, running an Open WebUI Docker container, and installing Stable Diffusion. Follow the steps below to set up each component.
 Table of Contents
